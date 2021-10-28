@@ -1,0 +1,37 @@
+
+body{
+    background:steelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+.empty{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 3px solid #000;
+    background: #fff;
+}
+.fill{
+    background-image: url('../img/rehmat.jpg');
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+}
+.hold{
+    border: 5px solid white;
+}
+.hovered{
+    background-color: #333;
+    border-color: white;
+    border-style: dashed;
+}
+@media (max-width:800px) {
+    body{
+        flex-direction: column;
+    }
+    
+}
